@@ -1,0 +1,102 @@
+@font-face {
+    font-family: DynaPuff;
+    src: url(DynaPuff-VariableFont_wdth\,wght.ttf);
+}
+html{
+    height: 100%;
+    font-family: DynaPuff;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(#ffc8dd, #ffafcc, #b4778d);
+}
+.divLogin{
+    display: flex;
+    margin:  50px auto;
+    width: 500px;
+    background: rgba(205, 180, 219, 0.5);
+    border: 2px solid #cdb4db;
+    border-radius: 10px;
+}
+.divLogin img{
+    width: 50%;
+    float: left;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;  
+}
+.divLogin form{
+    width: 50%;
+    margin: 10px auto;
+    padding: 0 20px;
+    float: right;
+}
+form label{
+    margin: 10px 0;
+    color: white;
+    text-shadow: #319bfd 1px 1px;
+}
+form input{
+    margin-bottom: 10px;
+    background-color: #dceaf7;
+    font-family: DynaPuff;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    color: gray;   
+}
+form #b_log{  
+    color: white;
+    text-shadow: #319bfd 1px 1px;
+    background-color: #ffc8dd;
+    font-family: DynaPuff;
+    border: 2px solid #ffafcc;
+    height: 40px;  
+}
+hr{
+    margin: 0;
+    padding: 0;
+}
+form p{
+    font-size:small;
+    text-align: center;
+    color: gray;
+    margin: 5px;
+}
+a{
+    text-decoration: none;
+}
+.reg_face{
+    margin-top: 0;
+    float: left;
+    width: 40%;
+    text-decoration: none;
+    background: #fdb2cf;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #f88bb3;
+    font-size: small;
+    text-align: center;
+    justify-content: center
+}
+.reg_google{
+    margin-top: 0;
+    float: right;
+    width: 40%;
+    text-decoration: none;
+    background: #fdb2cf;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #f88bb3;
+    font-size: small;
+    text-align: center;
+}
+
+.bi-facebook{
+    color: #319bfd;
+}
+.bi-google{
+    color: #e06874;
+}
+
